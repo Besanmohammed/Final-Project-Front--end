@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 import { Container, Row, Col, Card, Button, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Course1 from "../Images/Course1.jpg";
@@ -161,14 +162,14 @@ export default function Courses() {
   };
   return (
     <>
-      <div class="ContactContainer">
+      <div className="ContactContainer">
         <h2>Courses</h2>
-      <div class="PageAct">
+      <div className="PageAct">
         <Link className="LinkHomeContact" to="/">Home</Link> / Courses
       </div>
 
-      <div class="Circle"></div>
-      <div class="Lines"></div>
+      <div className="Circle"></div>
+      <div className="Lines"></div>
       </div>
 
       <Container className="my-4">

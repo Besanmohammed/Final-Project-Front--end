@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from '../Images/Logo-Edusion.png';
 function Navbar() {
@@ -13,7 +14,7 @@ function Navbar() {
       <div className="LogaMenu">
       <div className="Logo"><img src={Logo} alt="Logo"/></div>
       <div className="Menu" onClick={() => setOpen(!open)}>
-          <i class='bx bx-menu'></i>
+          <i className='bx bx-menu'></i>
         </div>
       </div>
 
@@ -26,9 +27,9 @@ function Navbar() {
 
       <div className="IconBtn">
         <div className="ContainIcons">
-          <button className="ButtonIcon"><i class='bx bx-search' undefined ></i></button>
+          <button className="ButtonIcon"><i className='bx bx-search'></i></button>
         <button className="ButtonIcon CartBtn">
-          <i class='bx bx-cart-alt'></i>
+          <i className='bx bx-cart-alt'></i>
           <span className="CartValue">0</span>
         </button>
         </div>

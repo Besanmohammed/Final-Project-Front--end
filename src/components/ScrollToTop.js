@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect } from "react";
 
 const ScrollToTop = () => {
@@ -27,7 +28,7 @@ const ScrollToTop = () => {
     <div>
         {visible && (
         <button className="BtnScrollTop" onClick={scrollToTop}>
-            <i class='bx bx-chevron-up'></i>
+            <i className='bx bx-chevron-up'></i>
         </button>
         )}
     </div>

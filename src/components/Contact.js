@@ -1,20 +1,21 @@
+import React from "react";
 import { Link } from "react-router-dom";
 function Contact() {
     return (
     <>
-    <div class="ContactContainer">
+    <div className="ContactContainer">
         <h2>Contact</h2>
-        <div class="PageAct">
+        <div className="PageAct">
         <Link className="LinkHomeContact" to="/">Home</Link> / Contact
     </div>
 
-    <div class="Circle"></div>
-    <div class="Lines"></div>
+    <div className="Circle"></div>
+    <div className="Lines"></div>
     </div>
 
     <div className="TypeContactContainer">
     <div className="ContactBox">
-        <div className="icon"><i class='bx bx-map-alt'></i></div>
+        <div className="icon"><i className='bx bx-map-alt'></i></div>
         <h3>Our Location</h3>
         <p>
             3481 Melrose Place, Beverly Hills <br />

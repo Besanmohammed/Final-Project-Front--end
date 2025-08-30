@@ -6,7 +6,7 @@ It features a responsive design, parallax backgrounds, video popups, and interac
 The website is aimed at online education platforms and e-learning courses.
 
 ## Home Page
-![Home Page Screenshot](src/images/HomepagwScreen.png)
+![Home Page Screenshot](./src/Images/HomepagwScreen.png)
 
 ## Features
 - Responsive design for all devices

@@ -1,3 +1,4 @@
+import React from "react";
 import Woman1 from "../Images/Woman1.png";
 import Woman2 from "../Images/Woman2.png";
 import Accordion from "react-bootstrap/Accordion";
@@ -162,13 +163,13 @@ const Features = [
 
     return (
     <>
-    <div class="ContactContainer">
+    <div className="ContactContainer">
       <h2>About Us</h2>
-      <div class="PageAct">
+      <div className="PageAct">
         <Link className="LinkHomeContact" to="/">Home</Link> / About Us
       </div>
-      <div class="Circle"></div>
-      <div class="Lines"></div>
+      <div className="Circle"></div>
+      <div className="Lines"></div>
     </div>
 
     <div className="AboutContainer">
@@ -212,7 +213,7 @@ const Features = [
         <h1>Learn New Skills To Go <span className="SpanAhead">Ahead For Your</span> Career.</h1>
         <p className="Paragraph1">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et simply. From blogs to emails to ad copies, auto-generate catchy, original, and high-converting copies in popular tones languages.From blogs to emails to ad copies, auto-generate catchy, original and high-converting copies.</p>
         <p className="Paragraph2">Auto-generate catchy original and high-converting copies in popular tones languages. From blogs to emails to ad copies auto-generate catchy</p>
-        <button class="BtnAbout"><span>Explore More</span></button>
+        <button className="BtnAbout"><span>Explore More</span></button>
     </div>
     </div>
     

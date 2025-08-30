@@ -1,9 +1,10 @@
+import React from "react";
 const EnvatorMarket = () => {
     return (
     <nav className="EnvatoNav">
         <a
         href="https://themeforest.net/item/edusion-education-lms-wordpress-theme/49120881" className="EnvatoLink">
-        <span className="envato-icon"><i class='bx bxs-zap bx-rotate-90' style={{color:"#9cd615"}}></i></span>
+        <span className="envato-icon"><i className='bx bxs-zap bx-rotate-90' style={{color:"#9cd615"}}></i></span>
         <span>envato<span className="EnvatoMarket">market</span>
         </span>
         </a>

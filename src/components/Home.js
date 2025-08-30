@@ -1,4 +1,4 @@
-
+import React from "react";
 import Business from '../Images/Business.svg'
 import DataScience from '../Images/Data Science.svg'
 import DigitalProgram from '../Images/Digital Program.svg'
@@ -22,7 +22,7 @@ import Architect from "../Images/Architect.png";
 import Buthers from "../Images/Buthers.png";
 import Hosoren from "../Images/Hosoren.png";
 import Hipesters from "../Images/Hipesters.png";
-import React, { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 
 
 import Video from './video'
@@ -289,7 +289,7 @@ function Home(){
             className="InputSearch"
         />
         <button className="BtnSearch">
-            Search <i class='bx bxs-paper-plane'></i>
+            Search <i className='bx bxs-paper-plane'></i>
         </button>
         </div>
 
@@ -369,7 +369,7 @@ function Home(){
         <h1>Learn New Skills To Go <span className="SpanAhead">Ahead For Your</span> Career.</h1>
         <p className="Paragraph1">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et simply. From blogs to emails to ad copies, auto-generate catchy, original, and high-converting copies in popular tones languages.From blogs to emails to ad copies, auto-generate catchy, original and high-converting copies.</p>
         <p className="Paragraph2">Auto-generate catchy original and high-converting copies in popular tones languages. From blogs to emails to ad copies auto-generate catchy</p>
-        <button class="BtnAbout"><span>Explore More</span></button>
+        <button className="BtnAbout"><span>Explore More</span></button>
 
     </div>
     </div>
@@ -433,8 +433,8 @@ function Home(){
       </h1>
     </div>
     <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
-      {Achievements.map((item) => (
-        <div className="col d-flex" key={item.id}>
+      {Achievements.map((item, index) => (
+        <div className="col d-flex" key={index}>
           <div className="TextIcon d-flex gap-3 align-items-center p-3">
             <i className={item.icon} style={{ color: item.color }} />
             <div className="TextContent">
@@ -465,12 +465,12 @@ function Home(){
   </div>
 
   <div className='ContainerPlatform'>
-    <div class="CircledDotPlat Left"></div>
-    <div class="CircledDotPlat Right"></div>
-    <div class="CircleSmall TopRight"></div>
-    <div class="yellow-circle BottomLeft"></div>
+    <div className="CircledDotPlat Left"></div>
+    <div className="CircledDotPlat Right"></div>
+    <div className="CircleSmall TopRight"></div>
+    <div className="yellow-circle BottomLeft"></div>
 
-  <div class="ContentPlatform">
+  <div className="ContentPlatform">
 
   <div className="TextAndImgContainer">
     <div className="TextContainer">
@@ -569,7 +569,7 @@ function Home(){
             className="InputSearch"
         />
         <button className="BtnSer">
-            <i class='bx bx-send' ></i>
+            <i className='bx bx-send' ></i>
         </button>
         </div>
 
