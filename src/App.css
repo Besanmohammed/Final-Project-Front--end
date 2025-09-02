@@ -304,32 +304,6 @@ textarea {
     width: 100%; 
   }
 }
-@media (max-width: 600px) {
-  .ContainerSec2 .Links .link-term {
-    flex: 0 0 auto; 
-  }
-
-  .ContainerSec2 .Links .link-special {
-    flex: 0 0 100%; 
-    margin-top: 5px;
-  }
-
-  .ContainerSec2 .Links .link-privacy {
-    flex: 0 0 auto; 
-  }
-}
-
-@media (max-width: 480px) {
-  .FooterSectionsGroup {
-    flex-direction: column; 
-  }
-  .ContainerCourses,
-  .ContainerCompany,
-  .ContainerInfo {
-    width: 100%;
-  }
-}
-
 @media (max-width: 1200px) {
   .Footer{
     padding: 17px;
@@ -339,7 +313,6 @@ textarea {
     align-items: flex-start;
   }
 }
-
 @media (max-width: 768px) {
     .FooterContainer {
     flex-direction: row;
@@ -358,13 +331,14 @@ textarea {
     width: 100%;
   }
 }
-
 @media (max-width: 480px) {
   .FooterContainer {
     flex-direction: column; 
     padding: 0 5px; 
   }
-
+  .FooterSectionsGroup {
+    flex-direction: column; 
+  }
   .ContainerCourses,
   .ContainerCompany,
   .ContainerInfo {
